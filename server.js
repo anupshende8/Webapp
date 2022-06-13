@@ -15,13 +15,12 @@ var onAboutUs=function(req, res){
     res.send("Chief Mentor :Ravi Tambade");
 };
 var onDefault=function(req, res){
-    res.send("<h1>Transflower Learning Pvt. Ltd</h1>"+
+    res.send("<h1>Farikram Information Management Solutions</h1>"+
               "<hr/>"+
               "<ol>"+
-                    " <li>Mentoring for skill building</li>"+
-                    " <li>Workshops</li>"+
-                    " <li>Online Course</li>"+
-                    " <li>Corporate Training</li>"+
+                    " <li>Human Resource</li>"+
+                    " <li>Accounting</li>"+
+                    " <li>Project Management</li>"+
              "</ol>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
